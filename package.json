@@ -21,6 +21,8 @@
     "allure:open": "allure open allure-report",
     "allure:serve": "allure serve allure-results",
     "codegen": "playwright codegen",
+    "test": "playwright test",
+    "test:ci": "playwright test --reporter=list,allure-playwright",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
@@ -42,7 +44,7 @@
     "@types/express": "^4.17.21",
     "@types/node": "^22.5.0",
     "allure-commandline": "^2.30.0",
-    "allure-playwright": "^3.0.0",
+    "allure-playwright": "^3.12.0",
     "dotenv": "^16.4.5",
     "typescript": "^5.5.4"
   }
